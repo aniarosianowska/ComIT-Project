@@ -2,13 +2,16 @@
 
 **This project was made based on knowledge that I gain over the course with ComIT. Technologies that I used are HTML, CSS, JS, Node.js and MongoDB**
 
-Website overview:
+*Website overview:*
 
-**Main page:**
+>Main page:
+
 ![Website screenshots](public/img/readme/screen3.png)
 
-**Admin page:**
+>Admin page:
+
 ![Website screenshots](public/img/readme/screen1.png)
 
-**Gallery with recipes:**
+>Gallery with recipes:
+
 ![Website screenshots](public/img/readme/screen2.png)
