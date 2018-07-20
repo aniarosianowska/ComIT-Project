@@ -1,0 +1,53 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(name='author', content='Ania Rosianowska')
+    meta(name='description', content='Cooking, Baking, Coffee, Books')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    meta(http-equiv='X-UA-Compatible', content='ie=edge')
+    link(rel='shortcut icon', href='img/faviconciastolubna.ico', type='image/x-icon')
+    title Ciastolubna
+    link(rel='stylesheet', href='/css/bootstrap/bootstrap.min.css')
+    link(rel='stylesheet', href='/css/styles.css')
+    script(src='/js/scripts.js')
+  body
+    nav
+      a(href='/recipes') Recipes
+      a(href='/about') About me
+      a(href='/')
+        img#logo(src='/img/logo_nav.png', alt='small logo for navbar', width='100px')
+      a(href='/contactme') Contact me
+      a(href='/add') Admin
+
+    block page
+
+    .row
+      .col-1
+      .col-10
+        hr
+      .col-1
+    #section.row
+      .col-4
+        form.form
+          label Never miss a post!
+          input(type='text', placeholder='Your name')
+          label
+          input(type='text', placeholder='Your e-mail address')
+          button Subscribe!
+      .col-4
+        a(href='https://instawidget.net/v/user/ciastolubna')  
+        script(src='https://instawidget.net/js/instawidget.js?u=f4764ae12e32d8c7e76604f653524d4923951e57a71c16bce969c92ab4c08a08&width=300px')
+      .col-4
+        h3 Tags
+        div
+            each category in categories
+                a(href='/category/' + category.toLowerCase())= category
+                br
+    .row
+      .col-1
+      .col-10
+        hr
+      .col-1
+    #footer.col-12
+      p © 2018 ciastolubna.com all rights reserved

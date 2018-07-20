@@ -1,0 +1,15 @@
+extends ./layout.pug
+
+block page
+    .row
+        .col-12
+            #main_content.row
+        .col-12
+            h1 
+            div
+                if recipes.length === 0
+                    p Sorry, no recipes
+                else
+                    each recipe in recipes
+                        p
+                            a(href='/recipe/' + recipe._id)= recipe.name

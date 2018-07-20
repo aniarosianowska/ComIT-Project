@@ -1,0 +1,16 @@
+extends ./layout.pug
+
+block page
+    .row
+        .col-12
+            #main_content.row
+        .col-12
+            h1 Recipes  
+            div
+                h2= recipe.name
+                img(src= '/img/' + recipe.image, width='600', height='400') 
+                ul
+                    each ingredient in recipe.ingredients
+                        li= ingredient
+                p= recipe.metodh
+                //- p= recipe.categories

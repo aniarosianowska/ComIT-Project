@@ -1,0 +1,34 @@
+extends ./layout.pug
+
+block page
+    .row
+        .col-12
+            #main_content.row
+            .col-12
+                h1 Find me on social medias:
+                br
+                a(href='https://www.instagram.com/ciastolubna/') Instagram
+                br
+                a(href='https://www.facebook.com/Ciastolubna/?ref=bookmarks') Facebook
+            .row
+                .col-1
+                .col-10
+                    hr
+                .col-1
+            .row
+                .col-12
+                    h1 Message me:
+                    form.message(action='mailto:an.ros@hotmail.com', method='post', enctype='text/plain')
+                        div
+                            label Your name:
+                            input(type='text', name='name', required)
+                        div
+                            label Your e-mail:
+                            input(type='text', name='mail', required)
+                        div
+                            lablel Message:
+                            input(type='text', name='message', style='height:100px', class='longText', required)
+                        div
+                            br
+                            input(type='submit', value='Send')
+

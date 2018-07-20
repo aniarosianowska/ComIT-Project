@@ -1,0 +1,27 @@
+extends ./layout.pug
+
+block page
+    .row
+        .col-1
+        .col-10
+        hr
+        .col-1
+    #gallery.row
+        .col-4
+            .responsive
+                .gallery
+                a(target='_blank', href='http://localhost:3000/recipe/5b172a21a2b2a1198f7d67b4')
+                    img(src='img/gallery/cheesecake.png', alt='cheesecake', width='300', height='200')
+                .desc Oreo cheesecake
+        .col-4
+            .gallery
+                a(target='_blank', href='http://localhost:3000/recipe/5b172c1fa2b2a1198f7d67b5')
+                    img(src='img/gallery/icecream.png', alt='icecream', width='300', height='200')
+                .desc Homemade ice cream
+        .col-4
+            .gallery
+                a(target='_blank', href='http://localhost:3000/recipe/5b172cefa2b2a1198f7d67b6')
+                    img(src='img/gallery/pancakes.png', alt='pancakes', width='300', height='200')
+                .desc Gluten free pancakes
+
+

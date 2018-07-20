@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    padding: 0;
+    padding-top: 60px;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-variant: small-caps;
+    color: gray;
+    text-align: center;
+}
+  
+nav {
+    position: fixed;
+    text-align: center;
+    background-color: rgba(170, 170, 170, 0.5);
+    top: 0;
+    width: 100%;
+    z-index: 10000;
+}
+  
+nav a {
+    padding: 10px;
+    display: inline-block;
+    color: grey;
+    text-decoration: none !important;
+}
+
+a {
+    color: grey;
+    text-decoration: none !important;
+}
+  
+a:hover{
+    color: darkred;
+  }
+
+.row {
+    padding: 20px;
+  }
+
+.logo {
+    text-align: center;
+}
+
+#main_content {
+    padding-top: 70px;
+}
+  
+form {
+    font-weight: bold;
+    align-content: center;
+    padding-bottom: 30px;
+}
+
+form label {
+    display: block;
+}
+  
+form input {
+    width: 100%;
+    text-align: center;
+}
+
+form input {
+    overflow: hidden;
+    vertical-align: top;
+    word-wrap: break-word;
+    max-width:100%;
+}
+
+.picture {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    size: 10px;
+}
+
+button {
+    margin-top: 30px;
+}
+
+#footer {
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    /* background-color: rgba(170, 170, 170, 0.5); */
+}
+
+ul {
+    list-style-type: none;
+}
+
+img:not(#logo) {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.imgrecipe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+form.message {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+h1 {
+    text-decoration: underline;
+}
+
+h2 {
+    text-align: center;
+}
+
+h4 {
+    font-weight: bolder;
+}
+
+.list {
+    font-weight: bold;
+    font-size: 25px;
+}

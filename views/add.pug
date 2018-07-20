@@ -1,0 +1,28 @@
+extends ./layout.pug
+
+block page
+    .row
+        .col-12
+            #main_content.row
+                .col-12
+                    h1 Add recipes:
+    .row
+        .col-12
+            form.message(action="/recipes/create/", method="post", enctype="multipart/form-data")
+                div
+                    label Name:
+                    input(type='text', name='name', required)
+                div
+                    label Ingredients:
+                    input(type='website', name='list', style='height:100px', class='longText', required)
+                div
+                    label Upload image:
+                    input.picture(type='file', name='image', required)
+                div
+                    label Metodh:
+                    input(type='text', name='metodh', style='height:100px', class='longText', required)
+                div
+                    label Categories:
+                    input(type='tags', name='categories', required)
+                div
+                    button.button Create
