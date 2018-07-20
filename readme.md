@@ -4,6 +4,11 @@
 
 Website overview:
 
-![Website screenshots](public/img/readme/screen2.png)
-![Website screenshots](public/img/readme/screen1.png)
+**Main page:**
 ![Website screenshots](public/img/readme/screen3.png)
+
+**Admin page:**
+![Website screenshots](public/img/readme/screen1.png)
+
+**Gallery with recipes:**
+![Website screenshots](public/img/readme/screen2.png)
